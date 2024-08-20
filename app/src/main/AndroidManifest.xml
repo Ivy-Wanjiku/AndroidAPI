@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+=======
+    <uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> 3c397d0f541df09a131ef8e8acc141c8083c5f55
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +16,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.PostsApp"
         tools:targetApi="31">
         <activity
@@ -22,6 +27,12 @@
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
+=======
+        android:theme="@style/Theme.PostApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+>>>>>>> 3c397d0f541df09a131ef8e8acc141c8083c5f55
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

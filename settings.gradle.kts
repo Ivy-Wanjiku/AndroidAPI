@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "PostsApp"
+=======
+rootProject.name = "PostApp"
+>>>>>>> 3c397d0f541df09a131ef8e8acc141c8083c5f55
 include(":app")
  

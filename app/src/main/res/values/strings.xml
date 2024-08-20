@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">PostsApp</string>
+=======
+    <string name="app_name">PostApp</string>
+>>>>>>> 3c397d0f541df09a131ef8e8acc141c8083c5f55
 </resources>
